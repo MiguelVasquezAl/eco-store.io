@@ -1,0 +1,22 @@
+$primary-color: #ffefe7;
+$secondary-color: #ffdac6;
+$tertiary-color: #babd8d;
+$primary-text-color: #7c6a0a;
+$font-stack: "IBM Plex Sans", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: $primary-color;
+}
+.main__section {
+  background-color: $primary-color;
+}
+.footer {
+  $background-color: #fa9500;
+  background-color: $background-color;
+}
