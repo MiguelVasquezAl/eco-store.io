@@ -38,11 +38,28 @@ article {
   display: flex;
   justify-content: space-between;
 }
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 article h1 {
   font-size: 3em;
 }
 article p {
   font-size: 1.5em;
+}
+article button {
+  background-color: #fa9500;
+  width: 12vw;
+  margin: 80px 0;
+  padding: 20px;
+  border-style: none;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
 }
 article img {
   width: 25vw;
