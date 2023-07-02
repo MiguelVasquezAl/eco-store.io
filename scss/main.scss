@@ -14,9 +14,7 @@ body {
 nav {
   width: auto;
   height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flexCenter(row, space-between, center);
   color: $primary-text-color;
   padding: 15px;
   p {
@@ -34,11 +32,9 @@ article {
   width: auto;
   padding: 50px 45px;
   color: $primary-text-color;
-  display: flex;
-  justify-content: space-between;
+  @include flexCenter(null, space-between, null);
   .impact-section {
-    display: flex;
-    flex-direction: column;
+    @include flexCenter(column, null, null);
     gap: 25px;
   }
   h1 {
