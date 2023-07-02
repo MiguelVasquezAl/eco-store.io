@@ -3,6 +3,7 @@ $secondary-color: #ffdac6;
 $tertiary-color: #babd8d;
 $primary-text-color: #7c6a0a;
 $font-stack: "IBM Plex Sans", sans-serif;
+$paragraph-font-size: 1.5em;
 
 * {
   margin: 0;
@@ -23,7 +24,7 @@ nav {
   color: $primary-text-color;
   padding: 15px;
   p {
-    font-size: 1.5em;
+    font-size: $paragraph-font-size;
     padding-left: 30px;
   }
   .icons {
@@ -35,9 +36,25 @@ nav {
     }
   }
 }
-// main {
-//   background-color: $primary-color;
-// }
+
+article {
+  width: auto;
+  padding: 0 45px;
+  color: $primary-text-color;
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: $paragraph-font-size;
+  }
+  img {
+    width: 25vw;
+    border-radius: 10px;
+  }
+}
+
 footer {
   $background-color: #fa9500;
   background-color: $background-color;
