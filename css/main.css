@@ -116,8 +116,12 @@ section .healthcare .product-card .product-image img, section .furnture .product
   border-radius: 6px;
 }
 
-.furnture .product-card {
-  background-color: #babd8d !important;
+.furnture .card-section .product-card {
+  background-color: #babd8d;
+  color: white;
+}
+.furnture .card-section .product-card .icon svg path {
+  stroke: white;
 }
 
 footer {

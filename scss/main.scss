@@ -125,8 +125,16 @@ section {
 }
 .furnture {
   @extend .healthcare;
-  .product-card {
-    background-color: $tertiary-color !important;
+  .card-section {
+    .product-card {
+      background-color: $tertiary-color;
+      color: white;
+      .icon {
+        svg path {
+          stroke: white;
+        }
+      }
+    }
   }
 }
 footer {
