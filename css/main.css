@@ -69,17 +69,33 @@ article img {
 section {
   width: 100%;
   height: auto;
-  background-color: aqua;
   padding: 60px;
 }
 section h2 {
   color: #7c6a0a;
   font-size: 1.7em;
 }
+section .healthcare h2 {
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+section .healthcare .product-card {
+  color: #7c6a0a;
+  width: 20vw;
+  height: auto;
+  background-color: #ffdac6;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .healthcare .product-card img {
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 6px;
+}
 
 footer {
   background-color: #fa9500;
   width: auto;
   height: auto;
-  border: 1px solid black;
 }/*# sourceMappingURL=main.css.map */

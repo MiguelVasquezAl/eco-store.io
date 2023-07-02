@@ -75,11 +75,30 @@ article {
 section {
   width: 100%;
   height: auto;
-  background-color: aqua;
   padding: 60px;
   h2 {
     color: $primary-text-color;
     font-size: 1.7em;
+  }
+  .healthcare {
+    h2 {
+      font-weight: 300;
+      padding-bottom: 25px;
+    }
+    .product-card {
+      color: $primary-text-color;
+      width: 20vw;
+      height: auto;
+      background-color: $secondary-color;
+      padding: 20px;
+      border-radius: 8px;
+      img {
+        width: 200px;
+        height: 250px;
+        background-size: cover;
+        border-radius: 6px;
+      }
+    }
   }
 }
 
@@ -87,5 +106,4 @@ footer {
   background-color: $quaternary-color;
   width: auto;
   height: auto;
-  border: 1px solid black;
 }
