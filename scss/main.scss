@@ -59,6 +59,7 @@ article {
     border-radius: 10px;
   }
 }
+// CARD SECTION
 section {
   width: 100%;
   height: auto;
@@ -120,6 +121,32 @@ section {
         svg path {
           stroke: white;
         }
+      }
+    }
+  }
+}
+// ESTILOS DE SECTION
+.info-section {
+  .about-us {
+    h2 {
+      font-weight: bold;
+      padding-bottom: 60px;
+    }
+    .mision-section {
+      @include flexCenter(center, space-around, center);
+      padding-bottom: 70px;
+      color: $quaternary-color;
+      .earth {
+        gap: 15px;
+        width: 28vw;
+        display: flex;
+        align-items: center;
+        p {
+          text-align: center;
+        }
+      }
+      .focus {
+        @extend .earth;
       }
     }
   }

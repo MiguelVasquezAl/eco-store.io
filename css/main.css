@@ -127,6 +127,27 @@ section .healthcare .product-card .product-image img, section .furnture .product
   stroke: white;
 }
 
+.info-section .about-us h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.info-section .about-us .mision-section {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 70px;
+  color: #fa9500;
+}
+.info-section .about-us .mision-section .earth, .info-section .about-us .mision-section .focus {
+  gap: 15px;
+  width: 28vw;
+  display: flex;
+  align-items: center;
+}
+.info-section .about-us .mision-section .earth p, .info-section .about-us .mision-section .focus p {
+  text-align: center;
+}
 footer {
   background-color: #fa9500;
   width: auto;
