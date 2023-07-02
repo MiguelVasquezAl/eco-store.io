@@ -86,39 +86,49 @@ section {
       padding-bottom: 25px;
     }
     .card-section {
-      .product-card {
-        color: $primary-text-color;
-        width: 20vw;
-        height: auto;
-        background-color: $secondary-color;
-        padding: 20px;
-        border-radius: 8px;
-        .icon {
-          display: flex;
-          justify-content: flex-end;
-          padding-bottom: 0.7em;
-          svg path {
-            stroke: $primary-text-color;
-          }
+      padding-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 50px;
+    }
+    .product-card {
+      color: $primary-text-color;
+      width: 20vw;
+      height: auto;
+      background-color: $secondary-color;
+      padding: 20px;
+      border-radius: 8px;
+      .icon {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 0.7em;
+        svg path {
+          stroke: $primary-text-color;
         }
-        .product-image {
-          width: 100%;
+      }
+      .product-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 16vw;
           height: auto;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          img {
-            width: 16vw;
-            height: auto;
-            background-size: cover;
-            border-radius: 6px;
-          }
+          background-size: cover;
+          border-radius: 6px;
         }
       }
     }
   }
 }
-
+.furnture {
+  @extend .healthcare;
+  .product-card {
+    background-color: $tertiary-color !important;
+  }
+}
 footer {
   background-color: $quaternary-color;
   width: auto;
