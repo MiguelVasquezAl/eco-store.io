@@ -3,7 +3,7 @@
 Accede a la página [aquí](https://miguelvasquezal.github.io/eco-store.io/).
 
 ![Vista Previa]
-<img src="./assets/img/pagina.JPG" alt="Vista Previa" width="300">
+<img src="./assets/img/pagina.JPG" alt="Vista Previa" width="600">
 
 ## Descripción
 
