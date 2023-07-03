@@ -1,9 +1,12 @@
 # Eco Store
 
 Accede a la página [aquí](https://miguelvasquezal.github.io/eco-store.io/).
-Proyecto Eco Store: tienda en línea de productos ecológicos.
 
 ![Vista Previa](./assets/img/pagina.JPG)
+
+## Descripción
+
+Proyecto Eco Store: tienda en línea de productos ecológicos.
 
 ## Tecnologías Utilizadas
 
