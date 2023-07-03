@@ -148,8 +148,71 @@ section .healthcare .product-card .product-image img, section .furnture .product
 .info-section .about-us .mision-section .earth p, .info-section .about-us .mision-section .focus p {
   text-align: center;
 }
+.gallery .gallery-section {
+  padding: 40px 0;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery .gallery-section .galley-image {
+  width: 395px;
+  height: 395px;
+}
+.gallery .gallery-section .galley-image img {
+  width: 25vw;
+  height: 100%;
+  border-radius: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery .gallery-section .galley-image img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.locattion {
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.locattion .map {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+.locattion h3 {
+  color: #7c6a0a;
+  font-size: 1.8em;
+}
+.locattion p {
+  color: #7c6a0a;
+  font-size: 1em;
+}
+
 footer {
   background-color: #fa9500;
   width: auto;
   height: auto;
+  padding: 3vw;
+  color: white;
+}
+footer .careers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .careers h3 {
+  padding-bottom: 20px;
+  font-size: 2em;
+  font-weight: 300;
+}
+footer .footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
 }/*# sourceMappingURL=main.css.map */

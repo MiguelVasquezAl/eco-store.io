@@ -151,8 +151,70 @@ section {
     }
   }
 }
+// GALLERY
+.gallery {
+  .gallery-section {
+    padding: 40px 0;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .galley-image {
+      width: 395px;
+      height: 395px;
+      img {
+        width: 25vw;
+        height: 100%;
+        border-radius: 7px;
+        object-fit: cover;
+        &:hover {
+          transform: scale(1.05);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+// MAPA
+.locattion {
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .map {
+    padding: 20px 0;
+    @include flexCenter(center, center, center);
+  }
+  h3 {
+    color: $primary-text-color;
+    font-size: 1.8em;
+  }
+  p {
+    color: $primary-text-color;
+    font-size: 1em;
+  }
+}
 footer {
   background-color: $quaternary-color;
   width: auto;
   height: auto;
+  padding: 3vw;
+  color: white;
+  .careers {
+    h3 {
+      padding-bottom: 20px;
+      font-size: 2em;
+      font-weight: 300;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
 }
