@@ -56,7 +56,7 @@ article button {
 }
 article button {
   background-color: #fa9500;
-  width: 12vw;
+  width: 10em;
   margin: 80px 0;
   padding: 20px;
   border-radius: 35px;
@@ -65,7 +65,7 @@ article button {
   font-size: 1em;
 }
 article img {
-  width: 25vw;
+  width: 20em;
   border-radius: 10px;
 }
 
@@ -91,7 +91,7 @@ section .healthcare .card-section, section .furnture .card-section {
 }
 section .healthcare .product-card, section .furnture .product-card {
   color: #7c6a0a;
-  width: 20vw;
+  width: 18em;
   height: auto;
   background-color: #ffdac6;
   padding: 20px;
@@ -113,7 +113,7 @@ section .healthcare .product-card .product-image, section .furnture .product-car
   align-items: center;
 }
 section .healthcare .product-card .product-image img, section .furnture .product-card .product-image img {
-  width: 16vw;
+  width: 14em;
   height: auto;
   background-size: cover;
   border-radius: 6px;
@@ -141,7 +141,7 @@ section .healthcare .product-card .product-image img, section .furnture .product
 }
 .info-section .about-us .mision-section .earth, .info-section .about-us .mision-section .focus {
   gap: 15px;
-  width: 28vw;
+  width: 25em;
   display: flex;
   align-items: center;
 }
@@ -160,7 +160,7 @@ section .healthcare .product-card .product-image img, section .furnture .product
   height: 395px;
 }
 .gallery .gallery-section .galley-image img {
-  width: 25vw;
+  width: 20em;
   height: 100%;
   border-radius: 7px;
   -o-object-fit: cover;
@@ -172,7 +172,7 @@ section .healthcare .product-card .product-image img, section .furnture .product
 }
 
 .locattion {
-  padding: 5vh 0;
+  padding: 5em 0;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -197,7 +197,7 @@ footer {
   background-color: #fa9500;
   width: auto;
   height: auto;
-  padding: 3vw;
+  padding: 3em;
   color: white;
 }
 footer .careers {
@@ -215,4 +215,11 @@ footer .footer-social {
   justify-content: center;
   gap: 20px;
   padding-top: 20px;
+}
+
+@media (min-width: 1500px) {
+  body {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
 }/*# sourceMappingURL=main.css.map */

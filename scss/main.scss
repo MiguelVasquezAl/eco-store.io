@@ -46,7 +46,7 @@ article {
   @include buttonStyle;
   button {
     background-color: $quaternary-color;
-    width: 12vw;
+    width: 10em;
     margin: 80px 0;
     padding: 20px;
     border-radius: 35px;
@@ -55,7 +55,7 @@ article {
     font-size: 1em;
   }
   img {
-    width: 25vw;
+    width: 20em;
     border-radius: 10px;
   }
 }
@@ -82,7 +82,7 @@ section {
     }
     .product-card {
       color: $primary-text-color;
-      width: 20vw;
+      width: 18em;
       height: auto;
       background-color: $secondary-color;
       padding: 20px;
@@ -102,7 +102,7 @@ section {
         justify-content: center;
         align-items: center;
         img {
-          width: 16vw;
+          width: 14em;
           height: auto;
           background-size: cover;
           border-radius: 6px;
@@ -138,7 +138,7 @@ section {
       color: $quaternary-color;
       .earth {
         gap: 15px;
-        width: 28vw;
+        width: 25em;
         display: flex;
         align-items: center;
         p {
@@ -163,7 +163,7 @@ section {
       width: 395px;
       height: 395px;
       img {
-        width: 25vw;
+        width: 20em;
         height: 100%;
         border-radius: 7px;
         object-fit: cover;
@@ -177,7 +177,7 @@ section {
 }
 // MAPA
 .locattion {
-  padding: 5vh 0;
+  padding: 5em 0;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -199,7 +199,7 @@ footer {
   background-color: $quaternary-color;
   width: auto;
   height: auto;
-  padding: 3vw;
+  padding: 3em;
   color: white;
   .careers {
     h3 {
@@ -216,5 +216,12 @@ footer {
     justify-content: center;
     gap: 20px;
     padding-top: 20px;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    margin: 0 auto;
+    max-width: 1440px;
   }
 }
