@@ -2,7 +2,8 @@
 
 Accede a la página [aquí](https://miguelvasquezal.github.io/eco-store.io/).
 
-![Vista Previa](./assets/img/pagina.JPG)
+![Vista Previa]
+<img src="./assets/img/pagina.JPG" alt="Vista Previa" width="300">
 
 ## Descripción
 
